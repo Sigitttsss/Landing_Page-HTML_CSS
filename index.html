@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Html Css</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="" class="logo">PORTOFOLIO</a>
+            <ul id="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+            <a href="" class="icon" id="icon-button">
+                <i class="fa fa-bars"></i>
+              </a>
+        </nav>
+
+        <div class="text-container">
+            <p>Hi, Guys!</p>
+            <p>I'M SIGIT SUGIANTORO</p>
+            <p>Web Developer</p>
+            <p>Learning tecnology and of course writting</p>
+            <button class="hire-btn">Contact Me</button>
+            <button class="down-cv">Portofolio</button>
+        </div>
+
+        <img src="./image/pngtree-work-and-study-isolated-cartoon-vector-illustrations-picture-image_8710412-removebg-preview.png" alt="model" class="model">
+    </section>
+
+    <div class="services">
+        <div class="services-text">
+            <p>What do I Offer ?</p>
+        </div>
+        <div class="box-container">
+          <div class="box-1">
+            <span>1</span>
+            <p class="heading">Content Writing</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore perspiciatis placeat adipisci ut repudiandae eveniet! Delectus voluptate provident velit beatae</p>
+            <button>Read More</button>
+          </div>
+
+          <div class="box-2">
+            <span>2</span>
+            <p class="heading">Search Engine Optimization</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore perspiciatis placeat adipisci ut repudiandae eveniet! Delectus voluptate provident velit beatae</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="box-3">
+            <span>3</span>
+            <p class="heading">Web Development</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore perspiciatis placeat adipisci ut repudiandae eveniet! Delectus voluptate provident velit beatae</p>
+            <button>Read More</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="testimoni">
+        <div class="testimoni-text">
+            <p>Clients Who are Satisfied with Our Service...</p>
+        </div>
+        <div class="testimoni-col">
+            <div class="testimoni-1">
+                <img src="./image/depositphotos_358350132-stock-illustration-man-working-his-laptop-drinks.jpg" alt="">
+                <div>
+                    <p>I am amazed by the level of professionalism and creativity this services. I highly recommend their services to anyone seeking top-notch solutions</p>
+                    <h3>Johanna</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="testimoni-1">
+                <img src="./image/depositphotos_358350132-stock-illustration-man-working-his-laptop-drinks.jpg" alt="">
+                <div>
+                    <p>Their attention to detail and commitment to excellence are truly remarkable. I am incredibly satisfied with the results they have achieved for my business</p>
+                    <h3>Zila</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>How to hire My Services ?</p>
+        <p>I work on projects with the best results and according to deadlines. Guaranteed revisions and money back if you are not satisfied with my work.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p class="copyright">Copyright by Sigit Sugiantoro</p>
+    </footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+    
+
+<script>
+    const iconBtn = document.getElementById("icon-button");
+    const nav = document.getElementById("nav");
+
+    iconBtn.addEventListener('click', () => {
+        nav.classList.toggle('show');
+    })
+</script>
+
+</body>
+</html>
